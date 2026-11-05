@@ -11,3 +11,6 @@ Certifique-se de ter um compilador C compatível instalado (como o GCC / MinGW-w
 2. Abra o terminal na pasta do projeto e compile o código utilizando as flags de otimização máxima (`-O3` e `-flto`):
    ```bash
    gcc -O3 -flto main.c -o ordenador.exe
+
+Execute o programa 
+./ordenador.exe
