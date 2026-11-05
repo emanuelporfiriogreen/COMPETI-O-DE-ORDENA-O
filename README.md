@@ -1,16 +1,19 @@
-# Competição de Ordenação: O Desafio dos Milissegundos
+Competição de Ordenação: O Desafio dos Milissegundos
 
-Repositório dedicado à implementação e otimização de algoritmos de ordenação em linguagem C para o menor tempo de processamento de CPU, isolando a medição de tempo estritamente na função de ordenação (`qsort`) conforme o regulamento da competição.
+Repositório dedicado à implementação e otimização de algoritmos de ordenação em linguagem C para o menor tempo de processamento de CPU, isolando a medição de tempo estritamente na função de ordenação conforme o regulamento da competição.
 
-## ⚙️ Pré-requisitos
-Certifique-se de ter um compilador C compatível instalado (como o GCC / MinGW-w64).
+Pré-requisitos
 
-## 🚀 Como Compilar e Executar
+Certifique-se de ter um compilador C compatível instalado, como o GCC ou MinGW-w64.
 
-1. Certifique-se de que o arquivo de dados (`ListahAhSerOrdenada.txt` ou `numeros.txt`) está na mesma pasta do código-fonte (`main.c`).
-2. Abra o terminal na pasta do projeto e compile o código utilizando as flags de otimização máxima (`-O3` e `-flto`):
-   ```bash
-   gcc -O3 -flto main.c -o ordenador.exe
+Como Compilar e Executar
 
-Execute o programa 
+Certifique-se de que o arquivo de dados (ListahAhSerOrdenada.txt ou numeros.txt) está na mesma pasta do código-fonte ordenador_v2.c.
+
+Abra o terminal na pasta do projeto e compile o código utilizando as flags de otimização máxima:
+
+gcc -O3 -flto -march=native ordenador_v2.c -o ordenador.exe
+
+Execute o programa no terminal:
+
 ./ordenador.exe
